@@ -22,7 +22,7 @@ namespace ChangeBackground
                 Random random = new Random();
                 int index = random.Next(0, 6);
                 String[] imageNames = { "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg" };
-                String imagePath = @"C:\users\benbr\Desktop\Bikes\" + imageNames[index];
+                String imagePath = @"C:\users\benbr\Desktop\Backgrounds\" + imageNames[index];
 
                 // Set wallpaper
            
